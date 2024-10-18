@@ -4,7 +4,8 @@
   "info": {
     "singularName": "dokumenty-wracam-do-pracy",
     "pluralName": "dokumenty-wracam-do-pracies",
-    "displayName": "Dokumenty-WracamDoPracy"
+    "displayName": "Dokumenty-WracamDoPracy",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,27 +16,32 @@
       "type": "string"
     },
     "kolorowy": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "czarnobialy": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "rank": {
       "type": "integer"
+    },
+    "podtytul": {
+      "type": "text"
     }
   }
 }

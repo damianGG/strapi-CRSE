@@ -1006,6 +1006,7 @@ export interface ApiDokumentyWracamDoPracyDokumentyWracamDoPracy
     singularName: 'dokumenty-wracam-do-pracy';
     pluralName: 'dokumenty-wracam-do-pracies';
     displayName: 'Dokumenty-WracamDoPracy';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1015,6 +1016,7 @@ export interface ApiDokumentyWracamDoPracyDokumentyWracamDoPracy
     kolorowy: Attribute.Media;
     czarnobialy: Attribute.Media;
     rank: Attribute.Integer;
+    podtytul: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
